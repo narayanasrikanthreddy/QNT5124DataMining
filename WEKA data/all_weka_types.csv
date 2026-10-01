@@ -1,0 +1,11 @@
+@relation all_weka_types
+
+@attribute age numeric
+@attribute gender {Male,Female}
+@attribute comment string
+@attribute purchase_date date "yyyy-MM-dd"
+
+@data
+25,Male,"Good customer","2026-01-10"
+32,Female,"Frequent buyer","2026-02-15"
+41,Male,"New customer","2026-03-20"
